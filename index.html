@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VigorMaxX - O Poder da Natureza para Homens de Verdade</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #7e22ce 100%);
+        }
+        .countdown {
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Header with Countdown Timer -->
+    <header class="gradient-bg text-white py-3 px-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fas fa-bolt text-yellow-400 text-2xl mr-2"></i>
+                <h1 class="text-xl font-bold">VigorMaxX</h1>
+            </div>
+            <div class="text-sm">
+                <span class="mr-2">OFERTA TERMINA EM:</span>
+                <span id="countdown" class="countdown bg-red-600 px-2 py-1 rounded">10:00</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-12 px-4">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">DESCUBRA O SEGREDO DOS HOMENS QUE NUNCA FALHAM NA HORA H</h1>
+                <p class="text-xl mb-6">VigorMaxX combina os 4 ingredientes mais poderosos da natureza para turbinar sua performance como nunca antes!</p>
+                <div class="bg-yellow-400 text-gray-900 inline-block px-4 py-2 rounded-full font-bold mb-6">
+                    <i class="fas fa-star mr-2"></i> MAIS DE 87.000 HOMENS TRANSFORMADOS
+                </div>
+                <ul class="space-y-2 mb-8">
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-2"></i> Aumento da energia e disposição</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-2"></i> Melhora na performance íntima</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-2"></i> Ganho de massa muscular</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle text-green-400 mr-2"></i> 100% natural e sem efeitos colaterais</li>
+                </ul>
+                <a href="#oferta" class="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full text-lg pulse-animation inline-block">
+                    QUERO ME TRANSFORMAR AGORA <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="encaps.png" alt="VigorMaxX" class="rounded-lg shadow-2xl floating w-64 md:w-80">
+            </div>
+        </div>
+    </section>
+
+    <!-- Scientific Proof Section -->
+    <section class="py-12 px-4 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">COMPROVADO CIENTIFICAMENTE</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Estudo da Universidade de Harvard</h3>
+                    <p class="text-gray-700">Pesquisa de 2021 comprovou que a combinação de Maca Peruana e Tribulus aumenta em 68% os níveis de testosterona em homens com baixa performance.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Resultados Mensuráveis</h3>
+                    <p class="text-gray-700">Em testes clínicos, 92% dos usuários relataram melhora significativa na performance íntima já na primeira semana de uso do VigorMaxX.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Aprovado por Especialistas</h3>
+                    <p class="text-gray-700">Dr. Carlos Mendes, urologista com 20 anos de experiência, recomenda VigorMaxX como a solução natural mais eficaz do mercado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ingredients Section -->
+    <section class="py-12 px-4 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">A FÓRMULA SECRETA DO VIGORMAXX</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="h-24 flex items-center justify-center">
+                        <img src="maca.jpg" alt="Maca Peruana" class="h-full rounded-full">
+                    </div>
+                    <h3 class="text-xl font-bold my-4 text-gray-800">Maca Peruana</h3>
+                    <p class="text-gray-700">Conhecida como "Viagra dos Incas", aumenta a libido e a resistência física de forma natural e segura.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="h-24 flex items-center justify-center">
+                        <img src="tribulus.jpeg" alt="Tribulus" class="h-full rounded-full">
+                    </div>
+                    <h3 class="text-xl font-bold my-4 text-gray-800">Tribulus Terrestris</h3>
+                    <p class="text-gray-700">Estimula a produção natural de testosterona, melhorando performance e ganho muscular.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="h-24 flex items-center justify-center">
+                        <img src="catuaba.png" alt="Catuaba" class="h-full rounded-full">
+                    </div>
+                    <h3 class="text-xl font-bold my-4 text-gray-800">Catuaba</h3>
+                    <p class="text-gray-700">Poderoso afrodisíaco natural usado há séculos por tribos indígenas para aumentar a potência masculina.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="h-24 flex items-center justify-center">
+                        <img src="ginseng.jpeg" alt="Ginseng" class="h-full rounded-full">
+                    </div>
+                    <h3 class="text-xl font-bold my-4 text-gray-800">Ginseng Coreano</h3>
+                    <p class="text-gray-700">Melhora a circulação sanguínea e a energia, proporcionando ereções mais firmes e duradouras.</p>
+                </div>
+            </div>
+            <div class="mt-10 text-center">
+                <p class="text-lg mb-6">A combinação exclusiva desses 4 ingredientes em doses perfeitas é o que torna o VigorMaxX tão eficaz!</p>
+                <a href="#oferta" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-full inline-block">
+                    QUERO EXPERIMENTAR ESSE PODER <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-12 px-4 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">DEPOIMENTOS REAIS</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="Client1.jpg" alt="Cliente 1" class="rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Roberto, 42 anos</h4>
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"Depois dos 35, minha performance começou a cair. Com VigorMaxX em 2 semanas já senti a diferença. Minha esposa não para de elogiar!"</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="client2.jpg" alt="Cliente 2" class="rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Marcos, 38 anos</h4>
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"Nunca imaginei que um produto natural pudesse fazer tanta diferença. Voltei a ter a energia dos 20 anos e na academia os resultados são visíveis!"</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <img src="client3.jpg" alt="Cliente 3" class="rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Carlos, 45 anos</h4>
+                            <div class="text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"Depois do divórcio, pensei que nunca mais teria uma vida íntima satisfatória. VigorMaxX mudou tudo! Agora tenho até que segurar as mulheres!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offer Section -->
+    <section id="oferta" class="py-12 px-4 gradient-bg text-white">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">OFERTA ESPECIAL POR TEMPO LIMITADO!</h2>
+            </div>
+            
+            <div class="bg-white text-gray-800 rounded-lg shadow-2xl overflow-hidden">
+                <div class="p-6 md:p-8">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="md:w-1/2 mb-6 md:mb-0 flex justify-center">
+                            <img src="encaps.png" alt="VigorMaxX Oferta" class="rounded-lg w-48 md:w-64">
+                        </div>
+                        <div class="md:w-1/2">
+                            <h3 class="text-2xl font-bold mb-4 text-gray-800">KIT VIGORMAXX 3 MESES</h3>
+                            <div class="mb-4">
+                                <span class="text-4xl font-bold text-red-600">R$39,99</span>
+                                <span class="line-through ml-2 text-gray-500">R$397</span>
+                                <span class="ml-2 bg-green-100 text-green-800 px-2 py-1 rounded text-sm">67% OFF</span>
+                            </div>
+                            <ul class="space-y-2 mb-6">
+                                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 1 potes com 60 cápsulas cada (3 meses de tratamento)</li>
+                                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Frete a R$9,99 para TODO Brasil</li>
+                                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Bônus Exclusivo: Ebook "Homem de Aço" (Guia de exercícios para potência máxima)</li>
+                                <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Garantia de 30 dias ou seu dinheiro de volta</li>
+                            </ul>
+                            
+                            <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-6">
+                                <div class="flex">
+                                    <div class="flex-shrink-0 text-yellow-400">
+                                        <i class="fas fa-exclamation-circle"></i>
+                                    </div>
+                                    <div class="ml-3">
+                                        <p class="text-sm text-yellow-700">
+                                            <strong>ATENÇÃO:</strong> Esta oferta é válida apenas para os próximos <span id="clientes-restantes">37</span> clientes ou até o timer zerar!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <a href="https://go.disruptybr.club/6y3xok6w25" class="block w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-6 rounded-lg text-center pulse-animation">
+                                SIM, QUERO ME TRANSFORMAR AGORA! <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                            
+                            <div class="mt-4 flex justify-center">
+                                <img src="pagamento.png" alt="Formas de Pagamento" class="h-8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-8 text-center">
+                <div class="inline-flex items-center bg-black bg-opacity-20 px-4 py-2 rounded-full">
+                    <i class="fas fa-lock mr-2"></i>
+                    <span>COMPRA 100% SEGURA</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-12 px-4 bg-white">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-3xl font-bold text-center mb-8 text-gray-800">PERGUNTAS FREQUENTES</h2>
+            
+            <div class="space-y-4">
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-4 py-3 bg-gray-50 text-left font-bold flex justify-between items-center">
+                        <span>VigorMaxX tem efeitos colaterais?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer px-4 py-3 hidden">
+                        <p class="text-gray-700">Não! VigorMaxX é 100% natural, feito com ingredientes que já são usados há séculos por diversas culturas sem relatos de efeitos colaterais. No entanto, recomendamos consultar seu médico caso você tenha alguma condição de saúde específica.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-4 py-3 bg-gray-50 text-left font-bold flex justify-between items-center">
+                        <span>Quanto tempo até sentir os resultados?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer px-4 py-3 hidden">
+                        <p class="text-gray-700">A maioria dos usuários relata sentir os primeiros efeitos já nos primeiros 3-5 dias de uso, com melhora significativa após 2 semanas. Para resultados completos, recomendamos o uso contínuo por pelo menos 3 meses.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-4 py-3 bg-gray-50 text-left font-bold flex justify-between items-center">
+                        <span>Como devo tomar VigorMaxX?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer px-4 py-3 hidden">
+                        <p class="text-gray-700">Recomendamos tomar 2 cápsulas ao dia, preferencialmente uma pela manhã e outra à noite, com um copo de água. Para melhores resultados, mantenha uma alimentação balanceada e pratique exercícios físicos regularmente.</p>
+                    </div>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <button class="faq-question w-full px-4 py-3 bg-gray-50 text-left font-bold flex justify-between items-center">
+                        <span>Qual a garantia do produto?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer px-4 py-3 hidden">
+                        <p class="text-gray-700">Oferecemos 30 dias de garantia incondicional. Se por qualquer motivo você não ficar satisfeito com os resultados, basta nos enviar um email e devolveremos 100% do seu dinheiro, sem perguntas.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-12 px-4 bg-gray-900 text-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">NÃO DEIXE PARA DEPOIS O QUE VOCÊ PODE TRANSFORMAR HOJE!</h2>
+            <p class="text-xl mb-8">Mais de 87.000 homens já descobriram o poder do VigorMaxX. Chegou sua vez!</p>
+            
+            <div class="max-w-md mx-auto bg-white text-gray-800 rounded-lg shadow-xl overflow-hidden">
+                <div class="p-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="font-bold">OFERTA ESPECIAL</span>
+                        <span class="bg-red-600 text-white px-2 py-1 rounded text-sm">LIMITADA</span>
+                    </div>
+                    
+                    <div class="flex items-end mb-4">
+                        <span class="text-4xl font-bold text-gray-900">R$39,99</span>
+                        <span class="ml-2 line-through text-gray-500">R$397</span>
+                    </div>
+                    
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> 1 potes de VigorMaxX (3 meses)</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Frete a R$ 9,99 para todo Brasil</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Ebook "Homem de Aço" (Bônus)</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Garantia de 30 dias</li>
+                    </ul>
+                    
+                    <a href="https://go.disruptybr.club/6y3xok6w25" class="block w-full bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-6 rounded-lg text-center pulse-animation">
+                        QUERO ME TRANSFORMAR AGORA <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                    
+                    <div class="mt-4 text-sm text-gray-500">
+                        <i class="fas fa-lock mr-1"></i> Compra 100% segura | Pagamento criptografado
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 px-4">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-bolt text-yellow-400 text-2xl mr-2"></i>
+                        <h3 class="text-xl font-bold">VigorMaxX</h3>
+                    </div>
+                    <p class="text-gray-400 max-w-md">O suplemento natural mais poderoso para homens que querem desempenho máxima na cama e na vida.</p>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Links</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Sobre</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Depoimentos</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">FAQ</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Legal</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white">Termos</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Privacidade</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Garantia</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Contato</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-center"><i class="fas fa-envelope mr-2 text-gray-400"></i> <a href="mailto:contato@vigormaxx.com" class="text-gray-400 hover:text-white">contato@vigormaxx.com</a></li>
+                            <li class="flex items-center"><i class="fab fa-whatsapp mr-2 text-gray-400"></i> <a href="#" class="text-gray-400 hover:text-white">(11) 98765-4321</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 VigorMaxX. Todos os direitos reservados.</p>
+                <p class="mt-2 text-sm">Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. Os resultados podem variar de pessoa para pessoa.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script>
+        // Countdown Timer
+        function startCountdown() {
+            let timeLeft = 30 * 60; // 30 minutes in seconds
+            const countdownElement = document.getElementById('countdown');
+            
+            const timer = setInterval(() => {
+                const minutes = Math.floor(timeLeft / 60);
+                const seconds = timeLeft % 60;
+                
+                countdownElement.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                
+                if (timeLeft <= 0) {
+                    clearInterval(timer);
+                    countdownElement.textContent = "OFERTA EXPIRADA!";
+                    countdownElement.classList.remove('bg-red-600');
+                    countdownElement.classList.add('bg-gray-500');
+                } else {
+                    timeLeft--;
+                }
+            }, 1000);
+        }
+        
+        // Decreasing Clients Counter
+        function decreaseClientsCounter() {
+            let clientsLeft = 37;
+            const clientsElement = document.getElementById('clientes-restantes');
+            
+            const interval = setInterval(() => {
+                if (clientsLeft > 0) {
+                    clientsLeft--;
+                    clientsElement.textContent = clientsLeft;
+                    
+                    if (clientsLeft < 5) {
+                        clientsElement.classList.add('text-red-600', 'font-bold');
+                    }
+                } else {
+                    clearInterval(interval);
+                }
+            }, 60000); // Decrease every minute
+        }
+        
+        // FAQ Accordion
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                answer.classList.toggle('hidden');
+                
+                if (answer.classList.contains('hidden')) {
+                    icon.classList.remove('fa-minus');
+                    icon.classList.add('fa-plus');
+                } else {
+                    icon.classList.remove('fa-plus');
+                    icon.classList.add('fa-minus');
+                }
+            });
+        });
+        
+        // Start all functions when page loads
+        window.addEventListener('DOMContentLoaded', () => {
+            startCountdown();
+            decreaseClientsCounter();
+        });
+    </script>
+</body>
+</html>
